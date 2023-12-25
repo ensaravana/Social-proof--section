@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content:center;    
+}
+.container{
+    margin-top: 30px;
+    background-color:rgb(244, 234, 244);
+    height: 500px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.innerdiv{
+    height: 80%;
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.rightdiv{
+    margin-top: 55px;
+    width:40%;
+}
+.innerdiv-1{
+    width: 50%;
+    margin-top: 50px;
+
+
+}
+.inner-1 p{
+    width: 50%;
+    font-size:xx-large;
+    color: rgb(70, 4, 70);
+   
+
+}
+.inner-2 p{
+    margin-top: 10px;
+    width: 70%;
+    opacity: 0.5;
+}
+.rightdiv-1,.rightdiv-2,.rightdiv-3{
+    width: 90%;
+    display: flex;
+    padding: 10px;
+
+}
+.rightdiv-1,.rightdiv-2,.rightdiv-3{
+    background-color:rgb(235, 212, 235);
+    border-radius: 2px;
+}
+
+.rightdiv-1 svg,.rightdiv-2 svg,.rightdiv-3 svg{
+    padding: 3px;
+    margin-top: 5px;
+    
+}
+.rightdiv-1 p,.rightdiv-2 p,.rightdiv-3 p{
+    margin-left: 10px;
+}
+.rightdiv{
+    margin-left: 30px;
+}
+
+
+
+.rightdiv p{
+justify-self: flex-end;
+}
+.rightdiv-2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.rightdiv-3{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.bottomdiv-1{
+    margin-top: 40px;
+    height: 50%;
+    width: 30%;
+    background-color: rgb(42, 3, 44);
+    padding: 8px;
+    border-radius: 8px;
+}
+.bottomdiv-2{
+   
+    height: 50%;
+    width: 30%;
+    background-color:rgb(42, 3, 44) ;
+    margin-left: 25px;
+    padding:8px;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+.bottomdiv-3{
+    margin-top: 80px;
+    height: 50%;
+    width: 30%;
+    background-color:rgb(42, 3, 44);
+    margin-left: 25px;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+.bottomdiv-1 img,.bottomdiv-2 img,.bottomdiv-3 img{
+
+    border-radius: 50px;
+    width: 30px;
+}
+#a1 {
+    color: white;
+    display: flex;
+justify-content:left;
+    width: 80%;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+#a1 p{
+    margin-left: 10px;
+    text-align:end;
+}
+#a2 p{
+    margin-left: 30px;
+}
+.l1 p,.l2 p,.l3 p{
+    margin-top: 20px;
+    color: white;
+}
+#a1 p:nth-child(){
+    justify-self:flex-end;
+}
